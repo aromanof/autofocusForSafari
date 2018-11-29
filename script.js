@@ -8,6 +8,10 @@ let input = document.getElementById('input');
 // }
 
 button.addEventListener('click', e => {
+    e.stopPropagation();
+});
+
+button.addEventListener('click', e => {
     input.style.display = 'block';
     input.focus();
 })
