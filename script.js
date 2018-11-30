@@ -13,5 +13,7 @@ button.addEventListener('click', e => {
 
 button.addEventListener('click', e => {
     input.style.display = 'block';
-    input.focus();
+    setTimeout(() => {
+        input.focus();
+    }, 2000);
 })
