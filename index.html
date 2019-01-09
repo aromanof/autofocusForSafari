@@ -12,13 +12,11 @@
     <form action="">
         <input type="text" id="input">
     </form>
+    
+    <input type="radio" id="radio" onclick="radioClicked();"> 
 
     <input type="text" id="element" autofocus>
-    <script type="text/javascript">
-        if (!("autofocus" in document.createElement("input"))) {
-          document.getElementById("element").focus();
-        }
-    </script>
+
     <script src="script.js"></script>
 </body>
 </html>

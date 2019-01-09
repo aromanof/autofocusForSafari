@@ -1,5 +1,10 @@
-// let button = document.getElementById('button');
-// let input = document.getElementById('input');
+let button = document.getElementById('radio');
+let input = document.getElementById('element');
+
+function radioClicked() {
+    console.log('clicked');
+    input.focus();
+}
 
 // function action() {
 //     console.log('clicked');
