@@ -8,11 +8,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button id="button">Click me</button>
+
     <form action="">
         <input type="text" id="input">
     </form>
 
+    <script type="text/javascript">
+        if (!("autofocus" in document.createElement("input"))) {
+          document.getElementById("element").focus();
+        }
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
