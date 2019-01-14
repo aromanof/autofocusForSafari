@@ -1,9 +1,15 @@
-let button = document.getElementById('radio');
+let button = document.getElementById('button');
 let input = document.getElementById('element');
 
 function radioClicked() {
     console.log('clicked');
     input.focus();
+}
+
+function buttonClicked() {
+    setTimeout(() => {
+        input.focus();
+    }, 10);
 }
 
 // function action() {
