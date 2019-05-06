@@ -1,3 +1,16 @@
 #input {
     display: none;
 }
+
+.container {
+    display: flex;
+}
+
+.actions {
+    margin-right: 25px;
+}
+
+.actions, .inputs {
+    display: flex;
+    flex-direction: column;
+}

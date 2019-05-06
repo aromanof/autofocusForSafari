@@ -9,18 +9,25 @@
 </head>
 <body>
 
-    <form action="">
-        <input type="text" id="input">
-    </form>
+<form action="">
+    <input type="text" id="input">
+</form>
+<div class="container">
+    <div class="actions">
+        <button id="button" onclick="buttonClicked()">
+            press me with timeout!
+        </button>
 
-    <button id="button" onclick="buttonClicked()">
-        press me!
-    </button>
-    
-    <input type="radio" id="radio" onclick="radioClicked();"> 
+        <button id="button2" onclick="button2Clicked()">
+            press me without timeout!
+        </button>
+    </div>
 
-    <input type="text" id="element" autofocus>
+    <div class="inputs">
+        <input type="text" id="element" autofocus>
+    </div>
+</div>
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
