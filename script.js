@@ -2,8 +2,12 @@ let input = document.getElementById('element');
 
 function buttonClicked() {
     setTimeout(() => {
-        input.focus();
+        buttonTouched();
     }, 10);
+}
+
+function buttonTouched() {
+    input.focus();
 }
 
 function button2Clicked() {
